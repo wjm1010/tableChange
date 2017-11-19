@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="table.css">
+<script src="js/jquery.js"></script>
+</head>
+<body>
+    <table id="tableTest">
+      <thead>
+        <tr>
+          <th>编号</th>
+          <th>姓名</th>
+          <th>职业</th> 
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="input">1</td>
+          <td class="input">张三</td>
+          <td class="select">学生</td>
+          <td>
+            <input type="button" value="编辑">
+            <input type="button" value="删除">
+          </td>
+        </tr>
+        <tr>
+          <td class="input">2</td>
+          <td class="input">李四</td>
+          <td class="select">销售</td>
+          <td>
+            <input type="button" value="编辑">
+            <input type="button" value="删除">
+          </td>
+        </tr>
+        <tr>
+          <td class="input">3</td>
+          <td class="input">你好</td>
+          <td class="select">学生</td>
+          <td>
+            <input type="button" value="编辑">
+            <input type="button" value="删除">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+</html>
+<script src="js/table.js"></script>
+<script>
+    var tableTest = document.getElementById('tableTest')
+    $("#tableTest").tableChange(tableTest)
+</script>

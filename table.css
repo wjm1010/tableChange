@@ -1,0 +1,41 @@
+body, input, tr, td, select {
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+table {
+	width: 980px;
+	background: #3c3c3c;
+}
+
+table tr {
+	height: 30px;
+	background: #616161;
+}
+
+table tr:hover {
+	height: 30px;
+	background: #616161;
+}
+
+table tr td {
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
+
+table tr {
+	height: 30px;
+	background: #eaeaea;
+}
+
+table tr:hover {
+	height: 30px;
+	background: #fadada;
+}
+
+table tr td {
+	text-align: center;
+	color: #000;
+	width: 312px;
+}
